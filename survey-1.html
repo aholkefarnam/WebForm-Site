@@ -12,6 +12,38 @@
     <h1>Survey Page 1</h1>
     <p>
         <a href="./survey-2.html"Take My Survey></a>
+        <form>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <div>
+                <label for="fname"> First Name:
+                    <input id="fname" type="text" autofocus>
+                </label> 
+                </div> 
+                <div> 
+                <label for="lname"> Last Name:
+                    <input id="lname" type="text">
+                </label> 
+                </div>
+                <div>
+                <label for="email"> Email Address:
+                    <input id="email" type="email" >
+                </label>
+                </div>  
+            </fieldset>
+            <div>
+                <label for="cars">Choose a car:</label>
+
+                    <select name="autos" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </form>
     </p>
     <p>
         <button onclick="window.location.href='./survey-2.html';">
