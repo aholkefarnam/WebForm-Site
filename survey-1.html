@@ -33,21 +33,71 @@
                 </label>
                 </div>  
             </fieldset>
+            <p>&nbsp;</p>
             <div>
-                <label for="cars">Choose a car:</label>
+                <fieldset>
+                    <legend>
+                        Gender Identity
+                    </legend>
+                <label for="gender">Select Your Gender:</label>
 
-                    <select name="autos" id="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                    <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="nonbinary">Non-Binary</option>
+                    <option value="other">Other</option>
                 </select>
+            </fieldset>
+            </div>
+            <p>&nbsp;</p>
+            <div>
+                <fieldset>
+                    <legend>
+                        Year In School?
+                    </legend>
+                <input type="radio" id="freshman" name="school_year" value="Freshman">
+                <label for="freshman">First-Year</label><br>
+                <input type="radio" id="sophomore" name="school_year" value="Sophomore">
+                <label for="sophomore">Second-Year</label><br>
+                <input type="radio" id="junior" name="school_year" value="Junior">
+                <label for="junior">Third-Year</label><br>                
+                <input type="radio" id="senior" name="school_year" value="Senior">
+                <label for="senior">Fourth-Year</label><br>
+                <input type="radio" id="other" name="school_year" value="Other">
+                <label for="other">Other</label><br>
+            </fieldset>
+            </div>
+            <p>&nbsp;</p>
+            <div>
+                <fieldset>
+                    <legend>
+                        Which College houses your major(s)?
+                    </legend>
+                <input type="checkbox" id="college1" name="college1" value="Dentistry">
+                <label for="college1">College of Dentistry</label><br>
+                <input type="checkbox" id="college2" name="college2" value="Education">
+                <label for="college2">College of Education</label><br>
+                <input type="checkbox" id="college3" name="college3" value="Engineering">
+                <label for="college3">College of Engineering</label><br>
+                <input type="checkbox" id="college4" name="college4" value="Law">
+                <label for="college4">College of Law</label><br>
+                <input type="checkbox" id="college5" name="college5" value="CLAS">
+                <label for="college5">College of Liberal Arts and Sciences</label><br>
+                <input type="checkbox" id="college6" name="college6" value="Nursing">
+                <label for="college6">College of Nursing</label><br>
+                <input type="checkbox" id="college7" name="college7" value="Pharmacy">
+                <label for="college7">College of Pharmacy</label><br>
+                <input type="checkbox" id="college8" name="college8" value="pHealth">
+                <label for="college8">College of Public Health</label><br>
+                <input type="checkbox" id="college9" name="college9" value="tippie">
+                <label for="college9">Tippie College of Business</label><br>
+                </fieldset>
             </div>
         </form>
     </p>
     <p>
         <button onclick="window.location.href='./survey-2.html';">
-        Next page
+        Next Page
       </button>
     </p>
     <p>Page 1 of 2</p>
