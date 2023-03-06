@@ -11,11 +11,90 @@
 <body>
     <h1>Survey Page 2</h1>
     <p>
-        <a href="./thank-you.html"Take My Survey></a>
+        <form>
+            <fieldset>
+                <legend>
+                    Social Media Presence
+                </legend>
+                <div>
+                    <fieldset>
+                        <legend>
+                            What Social Media platform do you use most often?
+                        </legend>
+                    <label for="smPlatform">Social Media Platform:</label>
+    
+                        <select name="smPlatform" id="smPlatform" required="required">
+                        <option value="instagram">Instagram</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="snapchat">Snapchat</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+                </div> 
+                <div> 
+                <label for="followers">How many followers/friends do you have on that platform?
+                    <input id="followers" type="number">
+                </label> 
+                </div>  
+            </fieldset>
+            <p>&nbsp;</p>
+            <div>
+                <label for="memory">What was your first memory from college?
+                    <input id="memory" type="text" autofocus required="required">
+                </label> 
+                 
+            </div>
+            <p>&nbsp;</p>
+            <div>
+                <fieldset>
+                    <legend>
+                        How do you spend most of your time outside of class?
+                    </legend>
+                <input type="radio" id="study" name="extracurricular" value="study">
+                <label for="study">Studying</label><br>
+                <input type="radio" id="work" name="extracurricular" value="work">
+                <label for="work">Working</label><br>
+                <input type="radio" id="media" name="extracurricular" value="media">
+                <label for="media">Watching TV/Streaming Services</label><br>                
+                <input type="radio" id="gym" name="extracurricular" value="gym">
+                <label for="gym">Working Out/Playing Sports</label><br>
+                <input type="radio" id="friends" name="extracurricular" value="friends">
+                <label for="friends">Hanging Out with Friends and/or Family</label>
+                <input type="radio" id="other" name="extracurricular" value="Other">
+                <label for="other">Other</label><br>
+            </fieldset>
+            </div>
+            <p>&nbsp;</p>
+            <div>
+                <fieldset>
+                    <legend>
+                        What extracurriculars have you participated in?
+                    </legend>
+                <input type="checkbox" id="stdorg" name="stdorg" value="studenOrganization">
+                <label for="stdorg">Student Organization</label><br>
+                <input type="checkbox" id="grklf" name="grklf" value="greekLife">
+                <label for="grklf">Greek Life</label><br>
+                <input type="checkbox" id="athletics" name="athletics" value="athletics">
+                <label for="athletics">Athletics</label><br>
+                <input type="checkbox" id="volunteer" name="volunteer" value="volunteer">
+                <label for="volunteer">Volunteering</label><br>
+                <input type="checkbox" id="work" name="work" value="work">
+                <label for="work">Work</label><br>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label><br>
+                 </fieldset>
+            </div>
+        </form>
+    </p>
+    <p>
+        <input type="submit"/>
     </p>
     <p>
         <button onclick="window.location.href='./thank-you.html';">
-        Submit Survey
+        Thank You!
       </button>
     </p>
     <p>Page 2 of 2</p>

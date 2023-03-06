@@ -18,18 +18,23 @@
                     Contact Information
                 </legend>
                 <div>
-                <label for="fname"> First Name:
-                    <input id="fname" type="text" autofocus>
+                <label for="fname">First Name:
+                    <input id="fname" type="text" autofocus required="required"/>
                 </label> 
                 </div> 
                 <div> 
-                <label for="lname"> Last Name:
-                    <input id="lname" type="text">
+                <label for="lname">Last Name:
+                    <input id="lname" type="text" required="required"/>
                 </label> 
                 </div>
                 <div>
-                <label for="email"> Email Address:
-                    <input id="email" type="email" >
+                <label for="email">Email Address:
+                    <input id="email" type="email" required="required"/>
+                </label>
+                </div>
+                <div>
+                <label for="phone">Phone Number:
+                    <input id="phone" type="tel">
                 </label>
                 </div>  
             </fieldset>
@@ -41,7 +46,7 @@
                     </legend>
                 <label for="gender">Select Your Gender:</label>
 
-                    <select name="gender" id="gender">
+                    <select name="gender" id="gender" required="required">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="nonbinary">Non-Binary</option>
@@ -92,7 +97,7 @@
                 <input type="checkbox" id="college9" name="college9" value="tippie">
                 <label for="college9">Tippie College of Business</label><br>
                 </fieldset>
-            </div>
+            </div>            
         </form>
     </p>
     <p>
