@@ -33,7 +33,7 @@
                 </div>
                 <div>
                 <label for="phone">Phone Number:
-                    <input id="phone" type="tel">
+                    <input id="phone" type="tel" placeholder="(319) 123-4567">
                 </label>
                 </div>  
             </fieldset>
@@ -43,13 +43,18 @@
                     <legend>
                         Gender Identity
                     </legend>
-                <label for="gender">Select Your Gender:</label>
+                <label for="gender">Which category best represents your gender?</label>
 
-                    <select name="gender" id="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
+                    <select name="gender" id="gender" aria-label="what category best represents your gender">
+                    <option value="man">Man</option>
+                    <option value="woman">Woman</option>
+                    <option value="tman">Trans-Man</option>
+                    <option value="twoman">Trans-Woman</option>
+                    <option value="genderqueer">Genderqueer</option>
+                    <option value="gnc">Gender Non-conforming</option>
                     <option value="nonbinary">Non-Binary</option>
-                    <option value="other">Other</option>
+                    <option value="multigender">Multigender</option>
+                    <option value="noanswer">Decline to Answer</option>
                 </select>
             </fieldset>
             </div>
@@ -96,11 +101,13 @@
                 <input type="checkbox" id="college9" name="college9" value="tippie">
                 <label for="college9">Tippie College of Business</label><br>
                 </fieldset>
-            </div>            
+            </div> 
+            
+        <input type="submit" aria-label="Submit Page 1">           
         </form>
     
     <p>
-        <button onclick="window.location.href='./survey-2.html';">
+        <button onclick="window.location.href='./survey-2.html';" aria-label="navigate to next page">
         Next Page
       </button>
     </p>
